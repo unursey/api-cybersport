@@ -1,7 +1,7 @@
 {
-  "name": "api_stand-up",
+  "name": "api_cypersport",
   "version": "1.0.0",
-  "description": "api сервиса регистрации\u001b[A\u001b[A\u001b[B\u001b[B",
+  "description": "api сервиса регистрации",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
