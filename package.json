@@ -1,0 +1,16 @@
+{
+  "name": "api_stand-up",
+  "version": "1.0.0",
+  "description": "api сервиса регистрации\u001b[A\u001b[A\u001b[B\u001b[B",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "type": "module",
+  "author": "Anna",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

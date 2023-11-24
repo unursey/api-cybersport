@@ -1,0 +1,118 @@
+[
+  {
+    "id": "1",
+    "game": "Dota 2",
+    "performances": [
+      {
+        "time": "12:00",
+        "hall": "Зал 1"
+      },
+      {
+        "time": "23:00",
+        "hall": "Зал 2"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "game": "PUBG Mobile",
+    "performances": [
+      {
+        "time": "13:00",
+        "hall": "Зал 1"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "game": "Counter-Strike",
+    "performances": [
+      {
+        "time": "14:00",
+        "hall": "Зал 1"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "game": "Cross Fire",
+    "performances": [
+      {
+        "time": "15:00",
+        "hall": "Зал 1"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "game": "Lineage II",
+    "performances": [
+      {
+        "time": "16:00",
+        "hall": "Зал 1"
+      },
+      {
+        "time": "21:00",
+        "hall": "Зал 1"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "game": "League of Legends",
+    "performances": [
+      {
+        "time": "17:00",
+        "hall": "Зал 1"
+      },
+      {
+        "time": "22:00",
+        "hall": "Зал 1"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "game": "Rocket League",
+    "performances": [
+      {
+        "time": "18:00",
+        "hall": "Зал 1"
+      },
+      {
+        "time": "23:00",
+        "hall": "Зал 1"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "game": "Valorant",
+    "performances": [
+      {
+        "time": "19:00",
+        "hall": "Зал 1"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "game": "PUBG: Battlegrounds",
+    "performances": [
+      {
+        "time": "12:00",
+        "hall": "Зал 2"
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "game": "Aion",
+    "performances": [
+      {
+        "time": "12:00",
+        "hall": "Зал 2"
+      }
+    ]
+  }
+]
