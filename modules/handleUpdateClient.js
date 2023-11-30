@@ -4,8 +4,7 @@ import { CLIENTS } from "../index.js";
 
 export const handleUpdateClient = (req, res, segments) => {
   let body = '';
-  const ticketNumber = segments[1];
-  console.log('body: ', body);
+  //const ticketNumber = segments[1];
   try {
     req.on("data", chunk => {
       body += chunk;
@@ -36,7 +35,7 @@ export const handleUpdateClient = (req, res, segments) => {
       const clientData = await fs.readFile(CLIENTS, 'utf-8');
       const clients = JSON.parse(clientData);
 
-      const clientIndex = clients.findIndex(c => c.ticketNumber === ticketNumber);
+      const clientIndex = clients.findIndex(c => c.ticketNumber === updateDataClient.ticketNumber);
       if (clientIndex === -1) {
         sendError(res, 404, "Клиент с данным номером билета не найден");
       }

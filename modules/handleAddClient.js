@@ -35,6 +35,11 @@ export const handleAddClient = (req, res) => {
       const clientData = await fs.readFile(CLIENTS, 'utf-8');
       const clients = JSON.parse(clientData);
 
+      if (clients.find(c => c.ticketNumber === newClient.ticketNumber)) {
+        sendError(res, 400, "Такой билет уже есть в базе");
+        return;
+      }
+
       clients.push(newClient);
       await fs.writeFile(CLIENTS, JSON.stringify(clients));
       sendData(res, newClient)
